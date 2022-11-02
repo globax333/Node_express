@@ -11,9 +11,11 @@ class AutorizationPage {
     getLoginButton(){
         return cy.get('[type="submit"]')
     }
-    SubmitLoginform(){
-        this.getLoginField().type('globaxv@gmail.com')
-        this.getPasswordField().type('Globax123')
+    SubmitLoginform(email, password){
+        cy.log('Fill and submit login form')
+        
+        this.getLoginField().type(email)
+        this.getPasswordField().type(password)
         this.getLoginButton().click()
     }
 
