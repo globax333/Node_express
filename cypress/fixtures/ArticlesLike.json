@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "slug": "test-6ao83x",
+            "title": "Changed articles ",
+            "description": "Changed articles",
+            "body": "Changed articles",
+            "createdAt": "2022-11-02T21:10:29.346Z",
+            "updatedAt": "2022-11-02T21:10:29.346Z",
+            "tagList": [
+                "Changed articles"
+            ],
+            "favorited": true,
+            "favoritesCount": 50,
+            "author": {
+                "username": "Changed articles",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 1
+}
