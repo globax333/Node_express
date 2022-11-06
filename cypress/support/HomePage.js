@@ -14,6 +14,15 @@ class HomePage {
     clickProfileButton(){
        this.getProfileButton().click();
     }
+    getTagsList(){
+        return cy.get('[class="tag-list"]')
+    }
+    clickTagChip(){
+        this.getTagsList().click();
+    }
+
+
+
 
 }
 export default new HomePage();
