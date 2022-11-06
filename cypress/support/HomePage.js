@@ -20,6 +20,18 @@ class HomePage {
     clickTagChip(){
         this.getTagsList().click();
     }
+    getGolobalFeed(){
+        return cy.get('a').contains('Global Feed')
+    }
+    getLikes(){
+        return cy.get('.btn.btn-sm.btn-primary')
+    }
+    DecreaseLikes(){
+        return cy.get('.btn.btn-sm.btn-primary').contains('50').click()
+    }
+    IncreaseLikes(){
+         return cy.get('.btn.btn-sm.btn-outline-primary').contains('49').click()
+    }
 
 
 
